@@ -1,0 +1,54 @@
+.footer-width-fixer {
+    width: 100%;
+}
+
+/* Container fix for genesis themes */
+
+.ehf-template-genesis.ehf-header .site-header .wrap,
+.ehf-template-genesis.ehf-footer .site-footer .wrap,
+.ehf-template-generatepress.ehf-header .site-header .inside-header {
+    width: 100%;
+    padding: 0;
+    max-width: 100%;
+}
+
+/* Container fix for generatepress theme */
+
+.ehf-template-generatepress.ehf-header .site-header,
+.ehf-template-generatepress.ehf-footer .site-footer {
+    width: 100%;
+    padding: 0;
+    max-width: 100%;
+    background-color: transparent !important; /* override generatepress default white color for header */
+}
+
+.bhf-hidden {
+    display: none
+}
+
+/* Fix: Header hidden below the page content */
+.ehf-header #masthead {
+	z-index: 99;
+    position: relative;
+}
+
+/*
+     FILE ARCHIVED ON 00:17:24 Apr 02, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:35:57 May 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.686
+  exclusion.robots: 0.03
+  exclusion.robots.policy: 0.014
+  esindex: 0.015
+  cdx.remote: 8.315
+  LoadShardBlock: 190.049 (3)
+  PetaboxLoader3.datanode: 176.629 (4)
+  PetaboxLoader3.resolve: 86.282 (2)
+  load_resource: 77.761
+*/
